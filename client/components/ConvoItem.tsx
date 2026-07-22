@@ -3,7 +3,7 @@ import React from 'react'
 import { Conversation } from '@/types'
 import { styles } from '@/assets/styles/ConvoItem.styles';
 import Avatar from './Avatar';
-import { formatTime } from '@/utilss/FormatTime';
+import { formatTime } from '@/utilss/formatTime';
 
 interface ConvoItemProps{
     convo: Conversation,
